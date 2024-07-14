@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30dc89d8-8216-43ef-9583-3912f9abd897" name="Changes" comment="Class Find - oprava metody findMatching&#10;&#10;K metodě findMatching přidán cyklus" />
+    <list default="true" id="30dc89d8-8216-43ef-9583-3912f9abd897" name="Changes" comment="Class FindMatchingTest - vytvoření metody emptyTest&#10;&#10;Metoda emptyTest s pomocí metody Assertions.assertThrows pro výjimku">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +33,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.FindMatchingTest.emptyTest.executor": "Run",
+    "JUnit.FindMatchingTest.executor": "Coverage",
     "JUnit.FindMatchingTest.middle1Test.executor": "Run",
     "JUnit.HelloWorldTest.printHelloTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -39,7 +43,38 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.FindMatchingTest.middle1Test">
+  <component name="RunManager" selected="JUnit.FindMatchingTest">
+    <configuration name="FindMatchingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CviceniAukol10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.FindMatchingTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindMatchingTest.emptyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CviceniAukol10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.FindMatchingTest" />
+      <option name="METHOD_NAME" value="emptyTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FindMatchingTest.middle1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CviceniAukol10" />
       <extension name="coverage">
@@ -74,6 +109,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FindMatchingTest" />
+        <item itemvalue="JUnit.FindMatchingTest.emptyTest" />
         <item itemvalue="JUnit.FindMatchingTest.middle1Test" />
         <item itemvalue="JUnit.HelloWorldTest.printHelloTest" />
       </list>
@@ -176,7 +213,23 @@
       <option name="project" value="LOCAL" />
       <updated>1720972199172</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Class FindMatchingTest - znovuspuštění testu middle1Test&#10;&#10;Spuštění testu metody middle1Test po vložení cyklu ve třídě Find">
+      <option name="closed" value="true" />
+      <created>1720972983472</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1720972983472</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Class FindMatchingTest - vytvoření metody emptyTest&#10;&#10;Metoda emptyTest s pomocí metody Assertions.assertThrows pro výjimku">
+      <option name="closed" value="true" />
+      <created>1720973250704</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1720973250704</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -191,6 +244,8 @@
     <MESSAGE value="Class FindMatchingTest - nová metoda middle1Test s anotací @Test&#10;&#10;Vytvoření nové metody middle1Test + importy List, Assertions, @Test" />
     <MESSAGE value="Class FindMatchingTest - spuštění testu metody middle1Test&#10;&#10;Test metody middle1Test proběhl s chybou" />
     <MESSAGE value="Class Find - oprava metody findMatching&#10;&#10;K metodě findMatching přidán cyklus" />
-    <option name="LAST_COMMIT_MESSAGE" value="Class Find - oprava metody findMatching&#10;&#10;K metodě findMatching přidán cyklus" />
+    <MESSAGE value="Class FindMatchingTest - znovuspuštění testu middle1Test&#10;&#10;Spuštění testu metody middle1Test po vložení cyklu ve třídě Find" />
+    <MESSAGE value="Class FindMatchingTest - vytvoření metody emptyTest&#10;&#10;Metoda emptyTest s pomocí metody Assertions.assertThrows pro výjimku" />
+    <option name="LAST_COMMIT_MESSAGE" value="Class FindMatchingTest - vytvoření metody emptyTest&#10;&#10;Metoda emptyTest s pomocí metody Assertions.assertThrows pro výjimku" />
   </component>
 </project>
