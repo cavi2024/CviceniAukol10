@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30dc89d8-8216-43ef-9583-3912f9abd897" name="Changes" comment="Class FindMatchingTest - nová metoda middle1Test s anotací @Test&#10;&#10;Vytvoření nové metody middle1Test + importy List, Assertions, @Test" />
+    <list default="true" id="30dc89d8-8216-43ef-9583-3912f9abd897" name="Changes" comment="Class Find - oprava metody findMatching&#10;&#10;K metodě findMatching přidán cyklus" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -160,7 +160,23 @@
       <option name="project" value="LOCAL" />
       <updated>1720971859792</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Class FindMatchingTest - spuštění testu metody middle1Test&#10;&#10;Test metody middle1Test proběhl s chybou">
+      <option name="closed" value="true" />
+      <created>1720972011503</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1720972011503</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Class Find - oprava metody findMatching&#10;&#10;K metodě findMatching přidán cyklus">
+      <option name="closed" value="true" />
+      <created>1720972199172</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1720972199172</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -173,6 +189,8 @@
     <MESSAGE value="Class HelloWorldTest -spuštční testu&#10;&#10;Test metody printHelloTest" />
     <MESSAGE value="Class FindMatchingTest - založení" />
     <MESSAGE value="Class FindMatchingTest - nová metoda middle1Test s anotací @Test&#10;&#10;Vytvoření nové metody middle1Test + importy List, Assertions, @Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Class FindMatchingTest - nová metoda middle1Test s anotací @Test&#10;&#10;Vytvoření nové metody middle1Test + importy List, Assertions, @Test" />
+    <MESSAGE value="Class FindMatchingTest - spuštění testu metody middle1Test&#10;&#10;Test metody middle1Test proběhl s chybou" />
+    <MESSAGE value="Class Find - oprava metody findMatching&#10;&#10;K metodě findMatching přidán cyklus" />
+    <option name="LAST_COMMIT_MESSAGE" value="Class Find - oprava metody findMatching&#10;&#10;K metodě findMatching přidán cyklus" />
   </component>
 </project>
