@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30dc89d8-8216-43ef-9583-3912f9abd897" name="Changes" comment="Class HelloWorldTest - přidání metody printHelloTest s anotací&#10;&#10;Metoda printHelloTest s anotací @Test" />
+    <list default="true" id="30dc89d8-8216-43ef-9583-3912f9abd897" name="Changes" comment="Class FindMatchingTest - nová metoda middle1Test s anotací @Test&#10;&#10;Vytvoření nové metody middle1Test + importy List, Assertions, @Test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +31,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.FindMatchingTest.middle1Test.executor": "Run",
     "JUnit.HelloWorldTest.printHelloTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -38,7 +39,23 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.FindMatchingTest.middle1Test">
+    <configuration name="FindMatchingTest.middle1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CviceniAukol10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.FindMatchingTest" />
+      <option name="METHOD_NAME" value="middle1Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HelloWorldTest.printHelloTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CviceniAukol10" />
       <extension name="coverage">
@@ -57,6 +74,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FindMatchingTest.middle1Test" />
         <item itemvalue="JUnit.HelloWorldTest.printHelloTest" />
       </list>
     </recent_temporary>
@@ -118,7 +136,31 @@
       <option name="project" value="LOCAL" />
       <updated>1720971321740</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Class HelloWorldTest -spuštční testu&#10;&#10;Test metody printHelloTest">
+      <option name="closed" value="true" />
+      <created>1720971426610</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1720971426610</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Class FindMatchingTest - založení">
+      <option name="closed" value="true" />
+      <created>1720971677743</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1720971677743</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Class FindMatchingTest - nová metoda middle1Test s anotací @Test&#10;&#10;Vytvoření nové metody middle1Test + importy List, Assertions, @Test">
+      <option name="closed" value="true" />
+      <created>1720971859792</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1720971859792</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -128,6 +170,9 @@
     <MESSAGE value="Class Find - new method findMatching&#10;&#10;Create new  double method findMatchinf" />
     <MESSAGE value="Class HelloWorldTest - založení&#10;&#10;Založení testovací třídy HelloWorldTest" />
     <MESSAGE value="Class HelloWorldTest - přidání metody printHelloTest s anotací&#10;&#10;Metoda printHelloTest s anotací @Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Class HelloWorldTest - přidání metody printHelloTest s anotací&#10;&#10;Metoda printHelloTest s anotací @Test" />
+    <MESSAGE value="Class HelloWorldTest -spuštční testu&#10;&#10;Test metody printHelloTest" />
+    <MESSAGE value="Class FindMatchingTest - založení" />
+    <MESSAGE value="Class FindMatchingTest - nová metoda middle1Test s anotací @Test&#10;&#10;Vytvoření nové metody middle1Test + importy List, Assertions, @Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Class FindMatchingTest - nová metoda middle1Test s anotací @Test&#10;&#10;Vytvoření nové metody middle1Test + importy List, Assertions, @Test" />
   </component>
 </project>
