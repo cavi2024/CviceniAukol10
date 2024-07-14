@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30dc89d8-8216-43ef-9583-3912f9abd897" name="Changes" comment="Class FindMatchingTest - spuštění testu emptyTest&#10;&#10;Spuštění testu s výjimkou with Coverage" />
+    <list default="true" id="30dc89d8-8216-43ef-9583-3912f9abd897" name="Changes" comment="Class FindMatchingTest - spuštění testu emptyTest&#10;&#10;Spuštění testu s výsledkem: &#10;org.opentest4j.AssertionFailedError: Expected java.lang.Exception to be thrown, but nothing was thrown." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +31,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "JUnit.FindMatchingTest.emptyTest.executor": "Debug",
+    "JUnit.FindMatchingTest.emptyTest.executor": "Run",
     "JUnit.FindMatchingTest.executor": "Coverage",
     "JUnit.FindMatchingTest.middle1Test.executor": "Run",
     "JUnit.HelloWorldTest.printHelloTest.executor": "Run",
@@ -41,7 +41,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.FindMatchingTest">
+  <component name="RunManager" selected="JUnit.FindMatchingTest.emptyTest">
     <configuration name="FindMatchingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CviceniAukol10" />
       <extension name="coverage">
@@ -235,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720973870528</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Class FindMatchingTest - spuštění testu emptyTest&#10;&#10;Spuštění testu s výsledkem: &#10;org.opentest4j.AssertionFailedError: Expected java.lang.Exception to be thrown, but nothing was thrown.">
+      <option name="closed" value="true" />
+      <created>1720974587224</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1720974587224</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -253,18 +261,8 @@
     <MESSAGE value="Class FindMatchingTest - znovuspuštění testu middle1Test&#10;&#10;Spuštění testu metody middle1Test po vložení cyklu ve třídě Find" />
     <MESSAGE value="Class FindMatchingTest - vytvoření metody emptyTest&#10;&#10;Metoda emptyTest s pomocí metody Assertions.assertThrows pro výjimku" />
     <MESSAGE value="Class FindMatchingTest - spuštění testu emptyTest&#10;&#10;Spuštění testu s výjimkou with Coverage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Class FindMatchingTest - spuštění testu emptyTest&#10;&#10;Spuštění testu s výjimkou with Coverage" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/org/example/FindMatchingTest.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Class FindMatchingTest - spuštění testu emptyTest&#10;&#10;Spuštění testu s výsledkem: &#10;org.opentest4j.AssertionFailedError: Expected java.lang.Exception to be thrown, but nothing was thrown." />
+    <option name="LAST_COMMIT_MESSAGE" value="Class FindMatchingTest - spuštění testu emptyTest&#10;&#10;Spuštění testu s výsledkem: &#10;org.opentest4j.AssertionFailedError: Expected java.lang.Exception to be thrown, but nothing was thrown." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CviceniAukol10$FindMatchingTest.ic" NAME="FindMatchingTest Coverage Results" MODIFIED="1720973673962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
