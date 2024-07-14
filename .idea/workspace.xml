@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30dc89d8-8216-43ef-9583-3912f9abd897" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="30dc89d8-8216-43ef-9583-3912f9abd897" name="Changes" comment="Class HelloWorldTest - přidání metody printHelloTest s anotací&#10;&#10;Metoda printHelloTest s anotací @Test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,11 +31,36 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.HelloWorldTest.printHelloTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="HelloWorldTest.printHelloTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CviceniAukol10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.HelloWorldTest" />
+      <option name="METHOD_NAME" value="printHelloTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HelloWorldTest.printHelloTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -40,6 +70,64 @@
       <option name="presentableId" value="Default" />
       <updated>1720968965615</updated>
     </task>
+    <task id="LOCAL-00001" summary="pom.xml init&#10;&#10;Založení nového projektu Maven">
+      <option name="closed" value="true" />
+      <created>1720969340260</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720969340260</updated>
+    </task>
+    <task id="LOCAL-00002" summary="pom.xml import dependencies version 5.10.3&#10;&#10;Dependencies 5.10.3, build">
+      <option name="closed" value="true" />
+      <created>1720970612748</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720970612748</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Create class Find">
+      <option name="closed" value="true" />
+      <created>1720970710198</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720970710198</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Class Find - new method findMatching&#10;&#10;Create new  double method findMatchinf">
+      <option name="closed" value="true" />
+      <created>1720970856688</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720970856688</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Class HelloWorldTest - založení&#10;&#10;Založení testovací třídy HelloWorldTest">
+      <option name="closed" value="true" />
+      <created>1720971203845</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1720971203845</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Class HelloWorldTest - přidání metody printHelloTest s anotací&#10;&#10;Metoda printHelloTest s anotací @Test">
+      <option name="closed" value="true" />
+      <created>1720971321740</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1720971321740</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="pom.xml init&#10;&#10;Založení nového projektu Maven" />
+    <MESSAGE value="pom.xml import dependencies version 5.10.3&#10;&#10;Dependencies 5.10.3, build" />
+    <MESSAGE value="Create class Find" />
+    <MESSAGE value="Class Find - new method findMatching&#10;&#10;Create new  double method findMatchinf" />
+    <MESSAGE value="Class HelloWorldTest - založení&#10;&#10;Založení testovací třídy HelloWorldTest" />
+    <MESSAGE value="Class HelloWorldTest - přidání metody printHelloTest s anotací&#10;&#10;Metoda printHelloTest s anotací @Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Class HelloWorldTest - přidání metody printHelloTest s anotací&#10;&#10;Metoda printHelloTest s anotací @Test" />
   </component>
 </project>
