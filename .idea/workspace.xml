@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30dc89d8-8216-43ef-9583-3912f9abd897" name="Changes" comment="Class FindMatchingTest - spuštění testu metody middleUkol1Test&#10;&#10;Výsledek testu middleUkol1Test:&#10;&#10;org.opentest4j.AssertionFailedError: &#10;Expected :12.0&#10;Actual   :8.126" />
+    <list default="true" id="30dc89d8-8216-43ef-9583-3912f9abd897" name="Changes" comment="Class FindMatchingTest - přidání metody middleUkol2Test&#10;&#10;Metoda middleUkol2Test se seznamem hodnot, limity a očekávaným výsledkem" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +35,7 @@
     "JUnit.FindMatchingTest.executor": "Coverage",
     "JUnit.FindMatchingTest.middle1Test.executor": "Run",
     "JUnit.FindMatchingTest.middleUkol1Test.executor": "Run",
+    "JUnit.FindMatchingTest.middleUkol2Test.executor": "Run",
     "JUnit.HelloWorldTest.printHelloTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -42,7 +43,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.FindMatchingTest.middleUkol1Test">
+  <component name="RunManager" selected="JUnit.FindMatchingTest.middleUkol2Test">
     <configuration name="FindMatchingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CviceniAukol10" />
       <extension name="coverage">
@@ -106,7 +107,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWorldTest.printHelloTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindMatchingTest.middleUkol2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CviceniAukol10" />
       <extension name="coverage">
         <pattern>
@@ -115,8 +116,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.HelloWorldTest" />
-      <option name="METHOD_NAME" value="printHelloTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.FindMatchingTest" />
+      <option name="METHOD_NAME" value="middleUkol2Test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -124,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FindMatchingTest.middleUkol2Test" />
         <item itemvalue="JUnit.FindMatchingTest.middleUkol1Test" />
         <item itemvalue="JUnit.FindMatchingTest.emptyTest" />
         <item itemvalue="JUnit.FindMatchingTest" />
         <item itemvalue="JUnit.FindMatchingTest.middle1Test" />
-        <item itemvalue="JUnit.HelloWorldTest.printHelloTest" />
       </list>
     </recent_temporary>
   </component>
@@ -293,7 +294,23 @@
       <option name="project" value="LOCAL" />
       <updated>1720975969783</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Class FindMatchingTest - spuštění testu metody middleUkol1Test po doplnění správných limitů&#10;&#10;Výsledek testu middleUkol1Test:&#10;&#10;Process finished with exit code 0">
+      <option name="closed" value="true" />
+      <created>1720976425163</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1720976425163</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Class FindMatchingTest - přidání metody middleUkol2Test&#10;&#10;Metoda middleUkol2Test se seznamem hodnot, limity a očekávaným výsledkem">
+      <option name="closed" value="true" />
+      <created>1720977075876</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1720977075876</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -315,7 +332,9 @@
     <MESSAGE value="Class FindMatchingTest - test metody emptyTest&#10;&#10;Test emptyTest s výsledkem: &#10;org.opentest4j.AssertionFailedError: Expected java.lang.Exception to be thrown, but nothing was thrown.&#10;&#10;&#9;at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)&#10;&#9;at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:73)&#10;&#9;at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)&#10;&#9;at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)&#10;&#9;at org.example.FindMatchingTest.emptyTest(FindMatchingTest.java:21)&#10;&#9;at java.base/java.lang.reflect.Method.invoke(Method.java:580)" />
     <MESSAGE value="Class FindMatchingTest - přidání metody z prvního úkolu middleUkol1Test&#10;&#10;Metoda middleUkol1Test s limity a správným výsledkem" />
     <MESSAGE value="Class FindMatchingTest - spuštění testu metody middleUkol1Test&#10;&#10;Výsledek testu middleUkol1Test:&#10;&#10;org.opentest4j.AssertionFailedError: &#10;Expected :12.0&#10;Actual   :8.126" />
-    <option name="LAST_COMMIT_MESSAGE" value="Class FindMatchingTest - spuštění testu metody middleUkol1Test&#10;&#10;Výsledek testu middleUkol1Test:&#10;&#10;org.opentest4j.AssertionFailedError: &#10;Expected :12.0&#10;Actual   :8.126" />
+    <MESSAGE value="Class FindMatchingTest - spuštění testu metody middleUkol1Test po doplnění správných limitů&#10;&#10;Výsledek testu middleUkol1Test:&#10;&#10;Process finished with exit code 0" />
+    <MESSAGE value="Class FindMatchingTest - přidání metody middleUkol2Test&#10;&#10;Metoda middleUkol2Test se seznamem hodnot, limity a očekávaným výsledkem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Class FindMatchingTest - přidání metody middleUkol2Test&#10;&#10;Metoda middleUkol2Test se seznamem hodnot, limity a očekávaným výsledkem" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CviceniAukol10$FindMatchingTest.ic" NAME="FindMatchingTest Coverage Results" MODIFIED="1720973673962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
