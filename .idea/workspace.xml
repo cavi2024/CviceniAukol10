@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30dc89d8-8216-43ef-9583-3912f9abd897" name="Changes" comment="Class FindMatchingTest - přidání metody z prvního úkolu middleUkol1Test&#10;&#10;Metoda middleUkol1Test s limity a správným výsledkem" />
+    <list default="true" id="30dc89d8-8216-43ef-9583-3912f9abd897" name="Changes" comment="Class FindMatchingTest - spuštění testu metody middleUkol1Test&#10;&#10;Výsledek testu middleUkol1Test:&#10;&#10;org.opentest4j.AssertionFailedError: &#10;Expected :12.0&#10;Actual   :8.126" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -277,7 +277,23 @@
       <option name="project" value="LOCAL" />
       <updated>1720975745705</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Class FindMatchingTest - spuštění testu metody middleUkol1Test&#10;&#10;Výsledek testu middleUkol1Test:&#10;&#10;org.opentest4j.AssertionFailedError: &#10;Expected :12.0&#10;Actual   :8.126">
+      <option name="closed" value="true" />
+      <created>1720975950965</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1720975950965</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Class FindMatchingTest - spuštění testu metody middleUkol1Test&#10;&#10;Výsledek testu middleUkol1Test:&#10;&#10;org.opentest4j.AssertionFailedError: &#10;Expected :12.0&#10;Actual   :8.126">
+      <option name="closed" value="true" />
+      <created>1720975969783</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1720975969783</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -298,7 +314,8 @@
     <MESSAGE value="Class FindMatchingTest - spuštění testu emptyTest&#10;&#10;Spuštění testu s výsledkem: &#10;org.opentest4j.AssertionFailedError: Expected java.lang.Exception to be thrown, but nothing was thrown." />
     <MESSAGE value="Class FindMatchingTest - test metody emptyTest&#10;&#10;Test emptyTest s výsledkem: &#10;org.opentest4j.AssertionFailedError: Expected java.lang.Exception to be thrown, but nothing was thrown.&#10;&#10;&#9;at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)&#10;&#9;at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:73)&#10;&#9;at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)&#10;&#9;at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)&#10;&#9;at org.example.FindMatchingTest.emptyTest(FindMatchingTest.java:21)&#10;&#9;at java.base/java.lang.reflect.Method.invoke(Method.java:580)" />
     <MESSAGE value="Class FindMatchingTest - přidání metody z prvního úkolu middleUkol1Test&#10;&#10;Metoda middleUkol1Test s limity a správným výsledkem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Class FindMatchingTest - přidání metody z prvního úkolu middleUkol1Test&#10;&#10;Metoda middleUkol1Test s limity a správným výsledkem" />
+    <MESSAGE value="Class FindMatchingTest - spuštění testu metody middleUkol1Test&#10;&#10;Výsledek testu middleUkol1Test:&#10;&#10;org.opentest4j.AssertionFailedError: &#10;Expected :12.0&#10;Actual   :8.126" />
+    <option name="LAST_COMMIT_MESSAGE" value="Class FindMatchingTest - spuštění testu metody middleUkol1Test&#10;&#10;Výsledek testu middleUkol1Test:&#10;&#10;org.opentest4j.AssertionFailedError: &#10;Expected :12.0&#10;Actual   :8.126" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CviceniAukol10$FindMatchingTest.ic" NAME="FindMatchingTest Coverage Results" MODIFIED="1720973673962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
