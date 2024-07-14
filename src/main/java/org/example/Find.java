@@ -6,6 +6,11 @@ public class Find {
     public static Double findMatching(
             List<Double> list, Double lowerLimit, Double upperLimit
     ) {
-        return list.get(0);
+        for (Double item : list) {
+            if (item >= lowerLimit && item <= upperLimit) {
+                return item;
+            }
+        }
+        return null;
     }
 }
